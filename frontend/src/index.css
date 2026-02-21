@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #a855f7;
+  --accent-secondary: #ec4899;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-dashboard {
+  background: radial-gradient(circle at top right, rgba(168, 85, 247, 0.1), transparent),
+              radial-gradient(circle at bottom left, rgba(236, 72, 153, 0.1), transparent),
+              #030712;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
